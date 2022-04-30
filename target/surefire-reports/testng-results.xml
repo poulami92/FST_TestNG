@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ExampleSuite" duration-ms="154" started-at="2022-04-21T22:13:43 IST" finished-at="2022-04-21T22:13:43 IST">
+    <groups>
+    </groups>
+    <test name="SuiteTests" duration-ms="154" started-at="2022-04-21T22:13:43 IST" finished-at="2022-04-21T22:13:43 IST">
+      <class name="com.ibm.FST_TestNG.DemoOne">
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:com.ibm.FST_TestNG.DemoOne@9660f4e]" name="firstTestCase" duration-ms="22" started-at="2022-04-21T22:13:43 IST" finished-at="2022-04-21T22:13:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestCase()[pri:0, instance:com.ibm.FST_TestNG.DemoOne@9660f4e]" name="secondTestCase" duration-ms="1" started-at="2022-04-21T22:13:43 IST" finished-at="2022-04-21T22:13:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+      </class> <!-- com.ibm.FST_TestNG.DemoOne -->
+      <class name="com.ibm.FST_TestNG.DemoTwo">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:com.ibm.FST_TestNG.DemoTwo@1f554b06]" name="TestCase" duration-ms="21" started-at="2022-04-21T22:13:43 IST" finished-at="2022-04-21T22:13:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+      </class> <!-- com.ibm.FST_TestNG.DemoTwo -->
+    </test> <!-- SuiteTests -->
+  </suite> <!-- ExampleSuite -->
+</testng-results>

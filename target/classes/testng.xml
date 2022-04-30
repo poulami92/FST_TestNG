@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExampleSuite" parallel ="classes" >
+    <test name="SuiteTests" enabled="true" >
+        <classes>
+            <class name="com.ibm.FST_TestNG.DemoOne"/>
+            <class name="com.ibm.FST_TestNG.DemoTwo"/>
+        </classes>
+    </test>
+    <test name="GroupingTests" enabled="false" >
+    <groups>
+        <run>
+            <!--<include name="HeaderTests" />-->
+            <!--<include name="ButtonTests" />-->
+            <exclude name="HeaderTests" />
+        </run>
+    </groups>
+        <classes>
+            <class name="com.ibm.FST_TestNG.Activity_5"/>
+        </classes>
+    </test>
+    <test name ="ParameterExample" enabled="false">
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="password"/>
+        <classes>
+            <class name="com.ibm.FST_TestNG.Activity_6"/>
+        </classes>
+    
+    </test>
+    <test name ="ParallelTests" enabled="false">
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="password"/>
+        <classes>
+            <class name="com.ibm.FST_TestNG.Activity_1"/>
+            <class name="com.ibm.FST_TestNG.Activity_2"/>
+            <class name="com.ibm.FST_TestNG.Activity_3"/>
+            <class name="com.ibm.FST_TestNG.DemoOne"/>
+            <class name="com.ibm.FST_TestNG.DemoTwo"/>
+            <class name="com.ibm.FST_TestNG.Activity_5"/>
+            <class name="com.ibm.FST_TestNG.Activity_6"/>            
+        </classes>
+    
+    </test>
+</suite>
